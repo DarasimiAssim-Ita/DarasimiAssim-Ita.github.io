@@ -150,9 +150,6 @@ a:hover, a:focus, a:active, a:visited {
   color: #646464;
   font-size: 40px;
 }
-.me-row {
-	padding: 30px 0;
-}
 .row-title {
 	font-weight: 400;
 }
@@ -176,14 +173,15 @@ a span.ti-twitter-alt {
 }
 
 .works {
-  font-size: 20px;
+  font-size: 18px;
 	background: #eee9f3;
 }
 .work {
-  padding-bottom: 15px;
+  /*padding-bottom: 15px;*/
 }
 .work img {
   max-width: 100%;
+  max-height: 450px;
 }
 
 .nav-tabs {
@@ -295,8 +293,11 @@ ul.footer-menu li a:hover {
     text-align: center;
     max-height: 550px;
   }
-  .speaker .feature {
-    width: 100%
+  .feature.about-me {
+    font-size: 14px;
+  }
+  .works {
+    font-size: 15px;
   }
   .footer-credit {
     text-align: center;
@@ -316,10 +317,6 @@ ul.footer-menu li a:hover {
     padding: 3em 1em 1em 1em;
     text-align: center;
   }
-  .speaker .feature {
-    width: 49%;
-    margin-right: 7px;
-  }
   ul.footer-menu {
     margin-top: 0;
   }
@@ -328,9 +325,10 @@ ul.footer-menu li a:hover {
 
 /* iPad Landscape */
 
-@media (min-width: 992px) and (max-width: 1199px) {
-  .speaker .feature {
-    width: 49%;
-    margin-right: 9px;
-  }
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/* Other */
+.vertical-align {
+  display: flex;
+  align-items: center;
 }

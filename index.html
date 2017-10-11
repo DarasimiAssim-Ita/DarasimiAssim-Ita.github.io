@@ -14,7 +14,8 @@
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
-  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/jquery.fullpage.min.css">
+  <link href="css/font-awesome.min.css">
   <link href="css/themify-icons.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -43,134 +44,161 @@
         </a>
       </li>
       <li>
-        <a href="#mywork" class="page-scroll">
-          <span class="menu-title">Work</span>
+        <a href="#mywork1" class="page-scroll">
+          <span class="menu-title">Work: Taron</span>
+          <span class="dot"></span>
+        </a>
+      </li>
+      <li>
+        <a href="#mywork2" class="page-scroll">
+          <span class="menu-title">Work: B.I.T.S</span>
+          <span class="dot"></span>
+        </a>
+      </li>
+      <li>
+        <a href="#mywork3" class="page-scroll">
+          <span class="menu-title">Work: CV Mobile</span>
           <span class="dot"></span>
         </a>
       </li>
     </ul>
   </nav>
-  <div class="container-fluid">
-    <!-- Start: Header -->
-    <div class="row hero-header" id="home">
-      <div class="col-md-7">
-        <h1>
-          <span style="color: black;">Hi!</span> <br>
-          I am <span style="color: #c93042;">Jemima Assim-Ita</span>
-        </h1>
-        <h3>UI &amp; UX Designer, Content Writer</h3>
-        <hr class="line">
+  <div id="fullpage">
+    <div class="container-fluid section">
+      <!-- Start: Header -->
+      <div class="row hero-header vertical-align">
+        <div class="col-lg-7 col-md-12 col-sm-12">
+          <h1>
+            <span style="color: black;">Hi!</span> <br>
+            I am <span style="color: #c93042;">Jemima Assim-Ita</span>
+          </h1>
+          <h3>UI &amp; UX Designer, Content Writer</h3>
+          <hr class="line hidden-sm hidden-xs">
 
-        <ul class="social">
-          <li>
-            <a href="https://twitter.com/daraassimita" target="_blank">
-              <i class="fa fa-twitter"></i>
-            </a>
-          </li>
-          <li>
-            <a href="#" target="_blank">
-              <i class="fa fa-behance"></i>
-            </a>
-          </li>
-          <li>
-            <a href="#" target="_blank">
-              <i class="fa fa-linkedin"></i>
-            </a>
-          </li>
-          <li>
-            <a href="#" target="_blank">
-              <i class="fa fa-pinterest"></i>
-            </a>
-          </li>
-          <li>
-            <a href="#" target="_blank">
-              <i class="fa fa-dribbble"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://medium.com/@daraassimita" target="_blank">
-              <i class="fa fa-medium"></i>
-            </a>
-          </li>
-        </ul>
+          <ul class="social">
+            <li>
+              <a href="https://twitter.com/daraassimita" target="_blank">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank">
+                <i class="fa fa-behance"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank">
+                <i class="fa fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank">
+                <i class="fa fa-pinterest"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank">
+                <i class="fa fa-dribbble"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://medium.com/@daraassimita" target="_blank">
+                <i class="fa fa-medium"></i>
+              </a>
+            </li>
+          </ul>
 
+        </div>
+        <div class="col-md-5 hidden-xs"></div>
       </div>
-      <div class="col-md-5 hidden-xs"></div>
+      <!-- End: Header -->
     </div>
-    <!-- End: Header -->
-  </div>
-  <div class="container">
-    <!-- Start: About me -->
-    <div class="row me-row" id="about">
-      <h1 class="row-title content-ct">About me</h1>
-      <div class="col-md-8 feature about-me">
-        <p>I am <span class="text-danger">obsessed</span> with zobo, <span class="text-danger">in love</span> with my laptop, <span class="text-danger">mesmerized</span> about food and <span class="text-danger">passionate</span> about my phone.</p>
-        <p>A learning designer with over 5 months experience, I am always looking for new opportunities to network and learn new things from total strangers or best of friends.</p>
-        <p>I am a 300 level student of Covenant University studying Computer Science, and I am going to be available to work with awesome companies from January. If you are intrested in allowing me to intern at your company, just fill out the contact me form below and I will get back to you.</p>
 
-        <p><span class="text-danger">P.S</span> Please be intrested. <br>
-        <span class="text-danger">P.P.S</span> Be really intrested.</p>
-      </div>
-      <div class="col-md-4 content-ct feature">
-        <img class="dara-avatar animated bounce" src="img/dara-avatar.png">
+    <!-- Start: About me -->
+    <div class="container section">
+      <div class="row">
+        <h1 class="row-title content-ct">About me</h1>
+
+        <div class="col-md-4 col-md-push-8 content-ct feature hidden-xs">
+          <img class="dara-avatar animated bounce" src="img/dara-avatar.png">
+        </div>
+        <div class="col-md-8 col-md-pull-4 feature about-me">
+          <p>I am <span class="text-danger">obsessed</span> with zobo, <span class="text-danger">in love</span> with my laptop, <span class="text-danger">mesmerized</span> about food and <span class="text-danger">passionate</span> about my phone.</p>
+          <p>A learning designer with over 5 months experience, I am always looking for new opportunities to network and learn new things from total strangers or best of friends.</p>
+          <p>I am a 300 level student of Covenant University studying Computer Science, and I am going to be available to work with awesome companies from January. If you are intrested in allowing me to intern at your company, just fill out the contact me form below and I will get back to you.</p>
+
+          <p><span class="text-danger">P.S</span> Please be intrested. <br>
+          <span class="text-danger">P.P.S</span> Be really intrested.</p>
+        </div>
       </div>
     </div>
     <!-- End: About me -->
-  </div>
 
-  <div class="container" >
     <!-- Start: Work -->
-    <div class="row me-row works" id="mywork">
-      <h1 class="row-title content-ct">Work</h1>
+    <div class="container section">
+      <div class="row works">
+        <h1 class="row-title content-ct">Work</h1>
 
-      <div class="work">
-        <h2>Taron Tanadi</h2>
-        <p>Taron Tanadi is an event planning company, focused on relieving any stress the client(s) face through the use of intensive algorithms.</p>
+        <div class="work">
+          <h2>Taron Tanadi</h2>
+          <p>Taron Tanadi is an event planning company, focused on relieving any stress the client(s) face through the use of intensive algorithms.</p>
 
-        <div class="row content-ct">
-          <div class="col-md-4">
-            <img class="img-fluid" src="img/taron-login.png">
-          </div>
-          <div class="col-md-4">
-            <img class="img-fluid" src="img/taron-settings.png">
-          </div>
-          <div class="col-md-4">
-            <img class="img-fluid" src="img/taron-inbox.png">
+          <div class="row content-ct">
+            <div class="col-md-4">
+              <img class="img-fluid" src="img/taron-login.png">
+            </div>
+            <div class="col-md-4">
+              <img class="img-fluid" src="img/taron-settings.png">
+            </div>
+            <div class="col-md-4">
+              <img class="img-fluid" src="img/taron-inbox.png">
+            </div>
           </div>
         </div>
       </div>
+    </div>
 
-      <div class="work">
-        <h2>B.I.T.S Smart Home</h2>
-        <p>The B.I.T.S Smart Home is a personal project aimed at helping hearing impaired or hard of hearing persons interact better with their home appliances.</p>
+    <div class="container section">
+      <div class="row works">
+        <h1 class="row-title content-ct">Work</h1>
 
-        <div class="row content-ct">
-          <div class="col-md-6">
-            <img class="img-fluid" src="img/bits-home-screen-1.png">
-          </div>
-          <div class="col-md-6">
-            <img class="img-fluid" src="img/bits-home-screen-2.png">
-          </div>
-        </div>
-      </div>
+        <div class="work">
+          <h2>B.I.T.S Smart Home</h2>
+          <p>The B.I.T.S Smart Home is a personal project aimed at helping hearing impaired or hard of hearing persons interact better with their home appliances.</p>
 
-      <div class="work">
-        <h2>My CV Mobile</h2>
-        <p>In a quest to showcase my skills, I decided to try out an entire iOS experience to show a little bit of what I can do.</p>
-
-        <div class="row content-ct">
-          <div class="col-md-4">
-            <img class="img-fluid" src="img/mobile-cv-splash-screen.png">
-          </div>
-          <div class="col-md-4">
-            <img class="img-fluid" src="img/mobile-cv-portfolio.png">
-          </div>
-          <div class="col-md-4">
-            <img class="img-fluid" src="img/mobile-cv-me.png">
+          <div class="row content-ct">
+            <div class="col-md-6">
+              <img class="img-fluid" src="img/bits-home-screen-1.png">
+            </div>
+            <div class="col-md-6">
+              <img class="img-fluid" src="img/bits-home-screen-2.png">
+            </div>
           </div>
         </div>
       </div>
+    </div>
 
+    <div class="container section">
+      <div class="row  works">
+        <h1 class="row-title content-ct">Work</h1>
+
+        <div class="work">
+          <h2>My CV Mobile</h2>
+          <p>In a quest to showcase my skills, I decided to try out an entire iOS experience to show a little bit of what I can do.</p>
+
+          <div class="row content-ct">
+            <div class="col-md-4">
+              <img class="img-fluid" src="img/mobile-cv-splash-screen.png">
+            </div>
+            <div class="col-md-4">
+              <img class="img-fluid" src="img/mobile-cv-portfolio.png">
+            </div>
+            <div class="col-md-4">
+              <img class="img-fluid" src="img/mobile-cv-me.png">
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- End: Work -->
   </div>
@@ -180,7 +208,7 @@
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/bootstrap.min.js"></script>
   <script src="js/jquery.easing.min.js"></script>
-  <script src="js/scrolling-nav.js"></script>
-  <script src="js/validator.js"></script>
+  <script src="js/jquery.fullpage.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
