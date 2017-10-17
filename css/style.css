@@ -1,9 +1,14 @@
+@font-face {
+  font-family: Circular;
+  src: url(../fonts/Circular/Circular-Medium.ttf);
+}
+
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: Circular, sans-serif;
   color: #404142;
   font-size: 16px;
 	letter-spacing: 0.8px;
-  background-color: #eee9f3;
+  background-color: #fff;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 500;
@@ -174,7 +179,7 @@ a span.ti-twitter-alt {
 
 .works {
   font-size: 18px;
-	background: #eee9f3;
+	background: #fff;
 }
 .work {
   /*padding-bottom: 15px;*/
