@@ -327,7 +327,17 @@ ul.footer-menu li a:hover {
 
 @media (min-width: 992px) and (max-width: 1199px) {}
 
+
+/* Bootstrap */
+@media (min-width: 768px) {
+  .container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
 /* Other */
+
 .vertical-align {
   display: flex;
   align-items: center;
